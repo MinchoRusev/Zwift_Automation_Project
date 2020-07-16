@@ -8,6 +8,10 @@
  
  3.Setup JDK->12
  
- 4.Go to src/test/java/testSuit folder->Open ZwiftSmokeTest class
+ 4.Open your Chrome browser -> enter chrome://version/ -> copy chrome version.
  
- 5.Run the tests
+ 5.Go to src/test/java/commons/Library and paste the chrome version to line 23 ( WebDriverManager.chromedriver().version("84.0.4147.89").setup());
+ 
+ 6.Go to src/test/java/testSuit folder->Open ZwiftSmokeTest class
+ 
+ 7.Run the tests
